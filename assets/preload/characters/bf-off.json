@@ -6,20 +6,9 @@
 				0,
 				0
 			],
-			"anim": "danceLeft",
+			"anim": "idle",
 			"fps": 24,
-			"name": "idle-left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "danceRight",
-			"fps": 24,
-			"name": "idle-right",
+			"name": "idle",
 			"indices": []
 		},
 		{
@@ -58,8 +47,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				1,
+				-2
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -69,7 +58,51 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
+				3,
+				-1
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "missleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-2
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "missdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				2
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "missup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-6
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "missright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
 				0
 			],
 			"anim": "hey",
@@ -79,68 +112,68 @@
 		},
 		{
 			"offsets": [
-				194,
-				28
+				0,
+				0
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "hairblow",
+			"anim": "firstDeath",
 			"indices": [],
-			"name": "hair-blow"
+			"name": "lose"
 		},
 		{
+			"loop": true,
 			"offsets": [
-				90,
-				23
+				-40,
+				-103
 			],
-			"loop": false,
+			"anim": "idle-alt",
 			"fps": 24,
-			"anim": "scared",
-			"indices": [],
-			"name": "scared"
-		},
-		{
-			"offsets": [
-				43,
-				-26
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "cry",
-			"indices": [],
-			"name": "missed"
+			"name": "fall",
+			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				40,
-				-20
+				-35,
+				-64
 			],
-			"anim": "thydi",
+			"anim": "turn",
 			"fps": 24,
-			"name": "thatshowyoudoit",
+			"name": "turn",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-80,
+				-106
+			],
+			"anim": "idle-alt2",
+			"fps": 24,
+			"name": "stand",
 			"indices": []
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": true,
-	"image": "characters/gf",
+	"image": "characters/bf-off",
 	"position": [
-		210,
-		270
+		90,
+		390
 	],
-	"healthicon": "gf",
-	"flip_x": false,
+	"healthicon": "bf",
+	"flip_x": true,
 	"healthbar_colors": [
-		255,
-		181,
-		185
+		154,
+		224,
+		255
 	],
 	"camera_position": [
-		-290,
-		-140
+		300,
+		-160
 	],
 	"sing_duration": 4,
 	"scale": 2.2,
-	"_editor_isPlayer": false
+	"_editor_isPlayer": true
 }

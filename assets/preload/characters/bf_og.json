@@ -7,74 +7,74 @@
 				0
 			],
 			"anim": "idle",
-			"fps": 24,
+			"fps": 12,
 			"name": "idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				7,
+				-7
 			],
 			"anim": "singLEFT",
-			"fps": 24,
+			"fps": 12,
 			"name": "left",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-20,
+				-53
 			],
 			"anim": "singDOWN",
-			"fps": 24,
+			"fps": 12,
 			"name": "down",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-43,
+				28
 			],
 			"anim": "singUP",
-			"fps": 24,
+			"fps": 12,
 			"name": "up",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-44,
+				-6
 			],
 			"anim": "singRIGHT",
-			"fps": 24,
+			"fps": 12,
 			"name": "right",
 			"indices": []
 		}
 	],
 	"vocals_file": "",
-	"no_antialiasing": true,
-	"image": "characters/pico",
+	"no_antialiasing": false,
+	"image": "characters/bf_og",
 	"position": [
-		20,
-		410
+		-40,
+		370
 	],
-	"healthicon": "pico",
+	"healthicon": "bf_og",
 	"flip_x": false,
 	"healthbar_colors": [
-		196,
-		255,
-		104
+		49,
+		176,
+		209
 	],
 	"camera_position": [
-		-30,
-		-160
+		-400,
+		-20
 	],
 	"sing_duration": 4,
-	"scale": 2.2,
+	"scale": 0.999999999999999,
 	"_editor_isPlayer": false
 }

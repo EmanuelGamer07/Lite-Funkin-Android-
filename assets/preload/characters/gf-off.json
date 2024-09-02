@@ -124,7 +124,7 @@
 	],
 	"vocals_file": "",
 	"no_antialiasing": true,
-	"image": "characters/gf",
+	"image": "characters/gf-off",
 	"position": [
 		210,
 		270
